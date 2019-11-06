@@ -15,6 +15,6 @@ end
 def swap_elements (array)
   array.sort do |a,b|
     binding.pry
-		return b.to_i - a.to_i if array.index(a) == 1 && array.index(b) == 2
+		b<=>a if array.index(a) == 1 && array.index(b) == 2
 	end
 end
